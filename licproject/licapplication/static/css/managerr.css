@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito',sans-serif;
+}
+/* body,html{
+    
+
+} */
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header{
+    width: 100%;
+    height: 60vh;
+    background-color: #fff;
+    position: relative;
+}
+.header .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-top: 30px;
+}
+.logo img{
+    margin-left: 100px;
+
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0 25px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 80px;
+    align-items: center;
+}
+.login-btn{
+    display: block;
+    font-weight:700 ;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #ff4980;
+    padding: 8px 40px;
+    margin-right: 100px;
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 25%;
+    left: 150px;
+    color: #fff;
+}
+.app-text{
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+}
+.app-text h3{
+    margin-top: 100px;
+    font-size: 17px;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+}
+.app-text h1{
+    font-size: 51px;
+    position: relative;
+    color: #000;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 1;
+}
+.app-text p{
+    font-size: 19px;
+    color: #000;
+    letter-spacing: 1px;
+    margin: 30px 30px 30px 0;
+    /* padding-right: 250px; */
+    font-weight: 700;
+}
+.btn-group{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.btn-group .signup-btn{
+    cursor: pointer;
+    display: block;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 32px;
+    background-color: #ff4980;
+    padding: 15px 50px;
+}
+.btn-group .plat-btn{
+    margin-left: 40px;
+    display: inline-flex;
+}
+.btn-group span{
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    margin: auto 20px;
+    cursor: pointer;
+}
+.btn-btn-inner{
+    height: 5px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: #000;
+
+    
+}
+.plat-btn-inner i{
+    padding: 15px 19px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.about-services{
+    position: absolute;
+    top: 125%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 300px;
+}
+.about-services ul{
+    display: inline-flex;
+    margin: 30px auto;
+    text-align: center;
+
+}
+.about-services ul li{
+    margin: 0 50px;
+    cursor: pointer;
+
+}
+.about-services ul li img{
+    width: 120px;
+    height: auto;
+
+}
+.about-services ul li h1{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.about-services ul li p{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.social-icons{
+    position: fixed;
+    right: 30px;
+    top: 30%;
+}
+.social-icons ul li{
+    margin-top: 5px;
+    text-align: center;
+}
+.social-icons ul li a{
+    color: #000;
+    padding: 10px;
+    display: block;
+    font-size: 29px;
+    
+}
+.social-icons ul li a :hover{
+    background-color: #220efb;
+    color: #fff;
+
+}
+.box img {
+    --g: 4px;     /* the gap */
+    --b: 12px;    /* border thickness*/
+    --c: #669706; /* the color */
+    
+    
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    background:
+      var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+      var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b),var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: .3s;
+  }
+ .box img:hover {
+    --_p: 75%;
+    filter: grayscale(0%);
+  }
+  
